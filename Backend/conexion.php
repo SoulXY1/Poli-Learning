@@ -1,9 +1,5 @@
 <?php
 
-  $mysqli = mysqli_init();
-
-  $mysqli->ssl_set(NULL, NULL, "/etc/ssl/certs/ca-certificates.crt", NULL, NULL);
-
         $user="0cod931r1crdz79hfu05";
         $pass="pscale_pw_5qxXOjyQRLzLUoDEGrh902ibvpzHlvOLgCXBz72v8Lm";
         $server="us-east.connect.psdb.cloud";
