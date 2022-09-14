@@ -1,7 +1,7 @@
 <?php
         $user="root";
-        $pass="";
-        $server="localhost";
+        $pass="destiny5";
+        $server="localhost:3306";
         $db="polilearning";
         $conexion= new mysqli($server, $user, $pass, $db);
 
