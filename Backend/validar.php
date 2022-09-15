@@ -9,7 +9,7 @@ $password = $_POST['passwordStudent'];
 
 
 $consulta = "SELECT*FROM students WHERE codigoStudent='$codigo' AND passwordStudent='$password'";
-$res = $conexion->query($consulta);
+$res = $mysqli->query($consulta);
 
 $row = $res->fetch_assoc();
 
